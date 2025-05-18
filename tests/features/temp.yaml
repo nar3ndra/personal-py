@@ -1,0 +1,37 @@
+#hey this is a comment
+#key values are always lower case(just like python)
+my_course: "AWS DevOps Professional Certification"
+version: 1.0
+price: 299
+is_public: true
+release_date: 2025-01-01
+pre_enroll: null
+category:
+ - AWS
+ - DevOps
+ - Certificaton
+ - Google GCP
+course_dev: ["murthy", "kavya", "nirnay"]
+dev_details:
+ - name: "murthy"
+   email: "support@gmail.com"
+   role: "author"
+ - name: "kavya"
+   email: "support@gmail.com"
+   role: "editor"
+ - name: "abc"
+   email: "abc@gmail.com"
+   role: "abc"
+ - {name: "navishika", email: "support@gmail.com", role: "finance"}
+
+short_description: >
+  This is a course for
+  AWS DevOps Professional
+  Certification
+
+detailed_description: |
+ This is a 
+ multiline string
+
+
+
